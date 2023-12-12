@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script>
+      src = "./functions.js";
+    </script>
+    <title>Мой сайт</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <div class="container nav-container">
+            <h1 class="text_logo">Регистрация</h1>
+            <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>
+            <div class="logo"></div>
+            <div class="menu-items">
+              <div class="button-container">
+                <!-- Кнопки со ссылками на другие странички-->
+                <a href="./index.html" class="button">Главная</a>
+                <a href="./Чай.html" class="button">Чай</a>
+                <a href="./Кофе.html" class="button">Кофе</a>
+                <a href="./Регистрация.html" class="button">Регистрация</a>
+                <a href="./Как и где нас можно найти.html" class="button"
+                  >Как и где нас можно найти</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="registration-section">
+      <div class="registration-image">
+        <img
+          src="./Фотки на заголовок\две чашки.jpeg"
+          alt="Registration Image"
+        />
+      </div>
+      <div class="registration-form">
+        <h2>Регистрация</h2>
+        <!-- Элементы <input> c атрибутом type с различными значениями-->
+        <!--textarea используется для поля ввода, особенность, можно потянуть за уголок и изменить размер-->
+        <!--Тег <label> определяет подпись для элемента <button>, <input>, <meter>, 
+          <output>, <progress>, <select> или <textarea>-->
+        <form>
+          <div class="form-group">
+            <label for="first-name">Имя:</label>
+            <input type="text" id="first-name" name="first-name" required />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Фамилия:</label>
+            <input type="text" id="last-name" name="last-name" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Сообщение:</label>
+            <textarea
+              class="message-window"
+              id="message"
+              name="message"
+              required
+            ></textarea>
+          </div>
+          <button class="button_registration" type="submit">
+            Зарегистрироваться
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="social-icons">
+        <a href="#"
+          ><img src="./Иконки соц сетей\pngwing.com.png" alt="Instagram"
+        /></a>
+        <a href="#"
+          ><img
+            src="./Иконки соц сетей\icons8-телеграмма-50.png"
+            alt="Telegram"
+        /></a>
+        <a href="#"
+          ><img src="./Иконки соц сетей\pngwing.com (1).png" alt="VK"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>

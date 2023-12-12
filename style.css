@@ -224,7 +224,7 @@ footer {
 }*/
 /*Для первой секции с картинкой и вступлением*/
 .background-section {
-  background-image: url("images/1e7ee634-3148-ae32-06b9-15fdb9d810cb.jpg");
+  /*background-image: url("images/1e7ee634-3148-ae32-06b9-15fdb9d810cb.jpg");*/
   background-position: 50% 50%;
   background-size: cover;
   background-position: center;
